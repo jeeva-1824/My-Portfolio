@@ -1,0 +1,9 @@
+#evolution .stage-build:after{display:none}
+
+#evolution .fragment-field{height:auto;margin-top:32px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 16px}
+#evolution .fragment-field span{position:relative;inset:auto;display:block;color:var(--muted);transform:none!important;margin-left:0!important}
+
+@media(max-width:800px){
+  #evolution .fragment-field{gap:14px 12px;margin-top:24px}
+  #evolution .build-step em{left:50%;top:calc(100% + 8px);transform:translateX(-50%);width:160px;text-align:center}
+}
